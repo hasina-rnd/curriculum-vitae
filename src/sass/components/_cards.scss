@@ -1,0 +1,39 @@
+#parcours {
+  .card {
+    border: dashed 2px $primary;
+    opacity: 0.6;
+    .card-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      background-color: $primary;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      span {
+        padding-top: 0.5em;
+      }
+    }
+  }
+  .card:hover {
+    transition: 0.2s ease;
+    opacity: 1;
+  }
+}
+
+#atout {
+  .card {
+    border: solid 2px $primary;
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+#passion {
+  .card {
+    background: linear-gradient(120deg,#f60 0,#fcbb31 100%);
+  }
+}

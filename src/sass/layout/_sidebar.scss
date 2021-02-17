@@ -1,0 +1,17 @@
+#sidebar {
+  padding-top: 25px;
+  background: $primary;
+  border-radius: 0 0 70% 70%;
+  .col-lg-7 {
+    padding-top: 1.5em;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    span {
+      margin-top : 10px;
+    }
+    strong {
+      margin-top: 20px;
+    }
+  }
+}

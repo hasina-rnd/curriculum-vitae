@@ -1,0 +1,12 @@
+#sticker-button {
+  width: 100vw;
+  position: fixed;
+  margin-left: 5px;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+  a {
+    border-radius: 100%;
+    padding: 0.9em 1.2em;
+  }
+}
